@@ -1,1 +1,5 @@
-this folder contains test cases. The first line tells # of node, and each line represents: #1 connect w/ #2
+this folder contains test cases. 
+for test case:
+The first line tells # of node, and each line represents: #1 connect w/ #2
+
+use Random_Generator.py to generate more grpah if needed
