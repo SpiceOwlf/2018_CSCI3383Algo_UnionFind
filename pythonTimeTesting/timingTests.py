@@ -173,7 +173,7 @@ def PathCompressionTime(txtFile,initial_list,initial_sz):
         words = i.split()
         p = int(words[0])#p is first node needs to be connnected
         q = int(words[1])#q is second node needs to be connnected
-        improvements.weighted_union_QU(initial_list,initial_sz, p, q)
+        improvements.PathCompressionUnion(initial_list,initial_sz, p, q)
         ############ record time for every 100 ndoes########
         countIteration = countIteration + 1
         if (countIteration % 100 == 0):
